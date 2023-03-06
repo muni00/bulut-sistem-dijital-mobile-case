@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Flutter/BulutBilisimMobileCase/app/src/main/res/drawable-v24/custom_progressbar.xml" value="0.1315" />
+        <entry key="..\:/Flutter/BulutBilisimMobileCase/app/src/main/res/drawable-v24/ic_back_arrow.xml" value="0.1315" />
+        <entry key="..\:/Flutter/BulutBilisimMobileCase/app/src/main/res/drawable-v24/ic_forward_arrow.xml" value="0.1315" />
+        <entry key="..\:/Flutter/BulutBilisimMobileCase/app/src/main/res/drawable/edit_text_tema.xml" value="0.164" />
+        <entry key="..\:/Flutter/BulutBilisimMobileCase/app/src/main/res/drawable/progress_bar_background.xml" value="0.16" />
+        <entry key="..\:/Flutter/BulutBilisimMobileCase/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Flutter/BulutBilisimMobileCase/app/src/main/res/layout/card_kategori_tasarim.xml" value="0.2" />
+        <entry key="..\:/Flutter/BulutBilisimMobileCase/app/src/main/res/layout/card_reklam_tasarim.xml" value="0.25" />
+        <entry key="..\:/Flutter/BulutBilisimMobileCase/app/src/main/res/layout/fragment_alt_kategori.xml" value="0.1766304347826087" />
+        <entry key="..\:/Flutter/BulutBilisimMobileCase/app/src/main/res/layout/fragment_ilan_aciklama.xml" value="0.1766304347826087" />
+        <entry key="..\:/Flutter/BulutBilisimMobileCase/app/src/main/res/layout/fragment_ilan_bilgisi.xml" value="0.22" />
+        <entry key="..\:/Flutter/BulutBilisimMobileCase/app/src/main/res/layout/fragment_ilan_detay.xml" value="0.1766304347826087" />
+        <entry key="..\:/Flutter/BulutBilisimMobileCase/app/src/main/res/layout/fragment_kategori.xml" value="0.21014492753623187" />
+        <entry key="..\:/Flutter/BulutBilisimMobileCase/app/src/main/res/layout/fragment_marka.xml" value="0.1766304347826087" />
+        <entry key="..\:/Flutter/BulutBilisimMobileCase/app/src/main/res/layout/fragment_on_izleme.xml" value="0.18" />
+        <entry key="..\:/Flutter/BulutBilisimMobileCase/app/src/main/res/layout/fragment_reklam.xml" value="0.1766304347826087" />
+        <entry key="..\:/Flutter/BulutBilisimMobileCase/app/src/main/res/layout/fragment_tebrik.xml" value="0.1766304347826087" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

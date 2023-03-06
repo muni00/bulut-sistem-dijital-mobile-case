@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_nav"
+    app:startDestination="@id/kategoriFragment">
+
+    <fragment
+        android:id="@+id/kategoriFragment"
+        android:name="com.muazzeznihalbahadir.bulutbilisimmobilecase.view.KategoriFragment"
+        android:label="fragment_kategori"
+        tools:layout="@layout/fragment_kategori" >
+        <action
+            android:id="@+id/altKategoriyeGecis"
+            app:destination="@id/altKategoriFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/altKategoriFragment"
+        android:name="com.muazzeznihalbahadir.bulutbilisimmobilecase.view.AltKategoriFragment"
+        android:label="fragment_alt_kategori"
+        tools:layout="@layout/fragment_alt_kategori" >
+        <action
+            android:id="@+id/markaGecis"
+            app:destination="@id/markaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/markaFragment"
+        android:name="com.muazzeznihalbahadir.bulutbilisimmobilecase.view.MarkaFragment"
+        android:label="fragment_marka"
+        tools:layout="@layout/fragment_marka" >
+        <action
+            android:id="@+id/ilanDetayGecis"
+            app:destination="@id/ilanDetayFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ilanDetayFragment"
+        android:name="com.muazzeznihalbahadir.bulutbilisimmobilecase.view.IlanDetayFragment"
+        android:label="fragment_ilan_detay"
+        tools:layout="@layout/fragment_ilan_detay" >
+        <action
+            android:id="@+id/onIzlemeGecis"
+            app:destination="@id/onIzlemeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onIzlemeFragment"
+        android:name="com.muazzeznihalbahadir.bulutbilisimmobilecase.view.OnIzlemeFragment"
+        android:label="fragment_on_izleme"
+        tools:layout="@layout/fragment_on_izleme" >
+        <action
+            android:id="@+id/reklamGecis"
+            app:destination="@id/reklamFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/reklamFragment"
+        android:name="com.muazzeznihalbahadir.bulutbilisimmobilecase.view.ReklamFragment"
+        android:label="fragment_reklam"
+        tools:layout="@layout/fragment_reklam" >
+        <action
+            android:id="@+id/tebrikGecis"
+            app:destination="@id/tebrikFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tebrikFragment"
+        android:name="com.muazzeznihalbahadir.bulutbilisimmobilecase.view.TebrikFragment"
+        android:label="fragment_tebrik"
+        tools:layout="@layout/fragment_tebrik" >
+        <action
+            android:id="@+id/kategoriGecis"
+            app:destination="@id/kategoriFragment" />
+    </fragment>
+</navigation>
